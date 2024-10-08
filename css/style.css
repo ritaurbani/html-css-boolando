@@ -33,7 +33,7 @@ img {
 }
 
 .col {
-    width: calc(96% / 3);
+    width: calc(95% /3 );
     /* debug */
     border: 2px solid black;
     min-height: 200px;
@@ -85,6 +85,7 @@ img {
     color: black;
     font-family: sans-serif;
     font-size: small;
+    
 }
 
 .card:hover .like {
