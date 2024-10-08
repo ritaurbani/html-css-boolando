@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img {max-width: 100%;}
+
+/* COMMON */
+/* Layout */
+
+.container {
+    width: 80%;
+    max-width:1100px;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+.section {
+    padding:30px,0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.col {
+    width: calc(96% / 3);
+    /* debug */
+    border: 2px solid black;
+    min-height: 200px;
+}
+
+
+
