@@ -4,7 +4,10 @@
     box-sizing:border-box;
 }
 
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+    /* padding-bottom: 5px; */
+}
 
 /* COMMON */
 /* Layout */
@@ -34,7 +37,82 @@ img {max-width: 100%;}
     /* debug */
     border: 2px solid black;
     min-height: 200px;
+    
 }
 
+.card {
+    position: relative;
+    padding-top: 0;
+    /* padding-bottom: 40px; */
 
+}
 
+.like {
+    position:absolute;
+    right: 0;
+    font-size: 2rem;
+}
+
+.badges {
+    position: absolute;
+    left:0;
+    bottom:70px;
+}
+
+.discount {
+    /* position: absolute; */
+    /* bottom: 70px; */
+    /* left: 0; */
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.tag {
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    /* position:absolute; */
+    /* bottom: 70px; */
+    /* left: 45px; */
+    padding: 5px;
+}
+
+.card-content {
+    color: black;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.card:hover .like {
+    color: red;
+}
+
+/* .two-img {
+    position: relative ;
+} */
+
+/* .imga,
+.imgb {
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; */
+.imga {
+    display: block;
+}
+
+.imgb {
+    display: none;
+} 
+
+.two-img:hover .imga{
+    display: none;
+}
+
+.two-img:hover .imgb {
+    display: block;
+}
