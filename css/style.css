@@ -17,8 +17,8 @@ img {
     max-width:1100px;
     margin: 0 auto;
     /* debug */
-    border: 1px solid black;
-    min-height: 300px;
+    /* border: 1px solid black;
+    min-height: 300px; */
 }
 
 .section {
@@ -29,15 +29,15 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 10px;
+    row-gap: 15px;
 }
 
 .col {
     width: calc(95% /3 );
     /* debug */
-    border: 2px solid black;
+    /* border: 2px solid black;
     min-height: 200px;
-    
+     */
 }
 
 .card {
@@ -84,13 +84,21 @@ img {
 .card-content {
     color: black;
     font-family: sans-serif;
-    font-size: small;
+    font-size:x-small;
     
 }
 
-.card:hover .like {
-    color: red;
+.darker-font {
+    font-weight: bold;
 }
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+/* .card:hover .like {
+    color: red;
+} */
 
 /* .two-img {
     position: relative ;
